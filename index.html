@@ -19,6 +19,8 @@
         wordpressを想定してcssを分けています
     -->
     <!-- 共通のcss -->
+    <link rel="stylesheet" href="https://ko-official.site/coding-parts-template/wp-content/themes/CPS/css/reset.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <!-- フロントページ用のcss -->
     <link rel="stylesheet" type="text/css" href="assets/css/top.css">
@@ -32,6 +34,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 </head>
+
+<!-- </body>の前（jsファイルの読み込み記述より前）に記述してください。既に同様の記述を行っている場合は削除してください。 -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- /</body>の前（jsファイルの読み込み記述より前）に記述してください。既に同様の記述を行っている場合は削除してください。 -->
+
 <body>
 
     <!-- Start pageLoader -->
@@ -386,6 +392,18 @@
                         <!-- 設定⑦：この中に任意のセクションコンテンツを記載 -->
                         <div style="text-align: center;">
                             <div class="work">
+
+                                <div class="work__item">
+                                    <a href="https://www.zerocloud.jp/" class="portfolio_link">
+                                        <div class="portfolio">
+                                            <img src="./assets/images/img/work2.png" alt="portfolio" />
+                                            <div class="work__text">
+                                                <h3>株式会社Zero Cloud様<br><span>コーポレートサイト</span></h3>
+                                                <p>クリックでサンプルサイトに訪れることができます</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
                                 
                                 <div class="work__item">
                                     <a href="https://pharma-baisel.com/" class="portfolio_link">
@@ -393,7 +411,7 @@
                                             <img src="./assets/images/img/work3.png" alt="portfolio" />
                                             <div class="work__text">
                                                 </a>
-                                                <h3>M&Aマッチングサイト<br>(株式会社WIDECAPITAL様)</h3>
+                                                <h3>株式会社WIDECAPITAL様<br><span>M&Aマッチングサイト</span></h3>
                                                 <p>クリックでサイトに訪れることができます</p>
                                             </div>
                                         </div>
@@ -411,24 +429,11 @@
                                     </a>
                                 </div>
 
-                                <div class="work__item">
-                                    <a href="https://naokiweb.github.io/flowershop/" class="portfolio_link">
-                                        <div class="portfolio">
-                                            <img src="./assets/images/img/work2.png" alt="portfolio" />
-                                            <div class="work__text">
-                                                <h3>サンプルフラワーショップサイト</h3>
-                                                <p>クリックでサンプルサイトに訪れることができます</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            
                             </div>
                             
                 </div>
                 <!-- セクションコンテンツここまで -->
             </div>
-                        
                     
                     <div class="section__btn">
                         <a class="btn outline--btn" href="https://forms.gle/zXULeMp1T6nbphGSA" target="_blank" rel="noopener noreferrer">
@@ -500,31 +505,55 @@
                         <!-- セクションコンテンツここまで -->
                         
                     </div>
+                </div>
+            </section><!-- section 04 till here -->
 
-                    <div class="section__btn">
-                        <a class="btn filled--btn" href="https://forms.gle/zXULeMp1T6nbphGSA" target="_blank" rel="noopener noreferrer">
-                            <span>お問い合わせはこちら</span>
-                            <img class="icon_white" src="assets/images/svg/next_white.svg" alt="→">
-                            <img class="icon_color" src="assets/images/svg/next_color.svg" alt="→">
-                        </a>
+            <!-- section 05 -->
+            <section class="main__section section section5 fadeIn--btt" id="flow">
+                <div class="container__section5">
+
+                    <div class="section__title">
+                        <span>お問い合わせ</span>
+                        <h2>contact</h2>
                     </div>
 
-                </div>
-            </section><!-- section 02  till here -->
-        </div>
+                    <div class="section__cont">
 
-        <div class="price">
-            <h3 class="price__title">Web制作プラン</h3>
-            <div class="price__text">
-                <span class="price-small">基本料金</span>
-                <span class="price-large">100,000円〜</span>
+                        <!-- 設定⑦：この中に任意のセクションコンテンツを記載 -->    
+<div class="cp-section">
+    <div class="cp-container">
+
+        <div class="cp-contactInduction01">
+
+            <!-- コピー -->
+            <p class="cp-contactInduction01__copy">
+                ご不明点や不安な点は<br>
+                お問い合わせボタンよりご相談ください。
+            </p><!-- /コピー -->
+
+            <!-- テキスト -->
+            <p class="cp-text cp-text-center cp-contactInduction01__text">
+                1日以内にご返信いたします。<br>
+                ささいなことでも構いませんので、お気軽にお問合せください。
+            </p><!-- /テキスト -->
+
+            <div class="section__btn">
+                <a class="btn filled--btn" href="https://forms.gle/zXULeMp1T6nbphGSA" target="_blank" rel="noopener noreferrer">
+                    <span>お問い合わせはこちら</span>
+                    <img class="icon_white" src="assets/images/svg/next_white.svg" alt="→">
+                    <img class="icon_color" src="assets/images/svg/next_color.svg" alt="→">
+                </a>
             </div>
-                <p class="price__introduce">たった10万円でホームページを作ります！予算をなるべく抑えながら質の高いサイトを作りたい方にぴったりなプランです。</p>
-                <p class="price__body"> ・デザイン考案
-                    ・スマホ・タブレット対応<br>
-                    ・サーバー・ドメイン取得<br>
-                    ・修正3回まで無料<br>
-                </p>
+
+        </div>
+    </div>
+</div>
+</div>                        <!-- セクションコンテンツここまで -->
+                        
+                    </div>
+                </div>
+            </section><!-- section 05 till here -->
+
         </div>
 
         <!-- Start footer -->
@@ -556,14 +585,16 @@
 
                     </div>
                     <p>©︎ 2021 Naoki's Portfolio All Rights Reserved.</p>
-                    <div class="footer__top__btn">
-                        <img src="assets/images/svg/top.svg" alt="">
-                    </div>
                 </div>
                 
             </div>
         </footer>
         <!-- End footer -->
+<!-- Tppに戻る -->
+<div class="p-scroll01">
+    <a href="#">Page Top<br><i class="fas fa-chevron-up"></i></a>
+</div><!-- /Tppに戻る -->
+
     </div>
 
     <!-- script -->
