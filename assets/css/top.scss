@@ -48,7 +48,6 @@
 
     &__title {
       @include absolute(initial, initial, 50%, initial, initial, 50%, initial, translate(-50%, -50%), 2);
-      -webkit-transform: translate(-50%, -50%);
       h1 {
         span {
           color: #fff;
@@ -75,6 +74,6 @@
   }
 }
 
-.section3 {
-  background: #eee;
+.section3,.section5 {
+  background: #f8f8f8;
 }

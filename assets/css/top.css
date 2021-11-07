@@ -76,7 +76,6 @@
   background: initial;
   transform: translate(-50%, -50%);
   z-index: 2;
-  -webkit-transform: translate(-50%, -50%);
 }
 .mv__title h1 span {
   color: #fff;
@@ -93,6 +92,6 @@
   padding: 80px 0;
 }
 
-.section3 {
-  background: #eee;
+.section3, .section5 {
+  background: #f8f8f8;
 }/*# sourceMappingURL=top.css.map */

@@ -140,6 +140,16 @@ p {
   box-sizing: border-box;
 }
 
+.container__section5 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
 .-top {
   position: fixed;
   background: #fff;
@@ -844,6 +854,10 @@ p {
   color: #000000;
 }
 
+.work__text span {
+  font-size: 20px;
+}
+
 .work__text p {
   margin-top: 20px;
 }
@@ -902,4 +916,162 @@ table.workflow_table tr td p {
   margin-bottom: 0;
   text-align: left;
   line-height: 1.75;
+}
+
+.price {
+  margin: 50px;
+}
+.price__title {
+  border-left: 1px solid #EFAA09;
+  font-size: 24px;
+  padding: 20px;
+  background: #f7f7f7;
+  margin-bottom: 20px;
+}
+.price__text {
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.price__text .price-small {
+  border: 1px solid #EFAA09;
+  color: #EFAA09;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 27px;
+}
+.price__text .price-large {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.price__introduce {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.price__body {
+  line-height: 2;
+  font-size: 18px;
+}
+
+/* 共通 ------------------------------*/
+*[class*=cp-],
+*[class*=cp-] * {
+  box-sizing: border-box;
+}
+
+/* セクション */
+.cp-section {
+  padding: 0;
+}
+
+/* コンテナー */
+.cp-container {
+  width: 100%;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* テキスト */
+.cp-text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #707070;
+}
+
+* + .cp-text {
+  margin: 16px 0 0 0;
+}
+
+.cp-text-center {
+  text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+  /* セクション */
+  .cp-section {
+    padding: 40px 0;
+  }
+
+  /* コンテナー */
+  .cp-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+/* お問合せ誘導 ------------------------------*/
+.cp-contactInduction01 {
+  padding: 40px;
+  background: #FFFFFF;
+}
+
+/* コピー */
+.cp-contactInduction01__copy {
+  margin: 32px 0 24px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #707070;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* テキスト */
+.cp-contactInduction01__text {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 599px) {
+  .cp-contactInduction01 {
+    padding: 24px 16px;
+  }
+
+  /* コピー */
+  .cp-contactInduction01__copy {
+    font-size: 18px;
+  }
+}
+/* 共通 ------------------------------*/
+*[class*=cp-],
+*[class*=cp-] * {
+  box-sizing: border-box;
+}
+
+/* ページトップ ------------------------------*/
+.p-scroll01 {
+  text-align: center;
+  position: fixed;
+  right: 24px;
+  bottom: 40px;
+}
+
+.p-scroll01 a {
+  display: inline-block;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  color: #fff;
+  background: #707070;
+  text-decoration: none;
+}
+
+.p-scroll01 i {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 599px) {
+  .p-scroll01 {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .p-scroll01 a {
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  .p-scroll01 i {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=base.css.map */
